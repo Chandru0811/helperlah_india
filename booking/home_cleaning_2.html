@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Cleaning - Booking | Helperlah Singapore</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../assets/css/booking/custom.css" />
+  </head>
+  <body>
+    <!-- ====NAV bar==== -->
+    <section class="header">
+      <nav
+        class="navbar navbar-expand-lg py-0 primary-navigation"
+        role="navigation"
+      >
+        <div class="container-fluid px-0 py-md-2 py-lg-0 py-0 pt-2">
+          <a
+            href="../"
+            class="text-light text-decoration-none ps-2 ps-md-3 d-flex align-items-center text-start"
+          >
+            <img
+              src="../assets/images/Logo_3_Final_7.png"
+              alt="Logo"
+              class="me-2 my-1 my-md-2 img-fluid"
+              style="height: 60px"
+            />
+            <!-- <span class="fw-bold fs-4 mb-0">Helperslah</span> -->
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul
+              class="navbar-nav ms-auto me-3 text-light ps-2 d-flex text-start"
+            >
+              <li class="nav-item pe-3">
+                <a class="nav-link active" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item pe-3 dropdown_li">
+                <p class="nav-link active mb-0">Services &dtrif;</p>
+                <ul class="dropdown">
+                  <div class="pe-3">
+                    <li><a href="../home_cleaning.html">Home Cleaning</a></li>
+                    <li>
+                      <a href="../office_cleaning.html">Office Cleaning</a>
+                    </li>
+                    <li><a href="../deep_cleaning.html">Deep Cleaning</a></li>
+                    <li>
+                      <a href="../aircon_service_repair.html"
+                        >Aircon Service & Repair</a
+                      >
+                    </li>
+                    <li><a href="../handyman.html">Handyman</a></li>
+                  </div>
+                  <div class="pe-3">
+                    <li>
+                      <a href="../laundry.html">Laundry & Ironing Service</a>
+                    </li>
+                    <li>
+                      <a href="../cooking_services.html">Cooking Service</a>
+                    </li>
+                    <li>
+                      <a href="../move_in_out_cleaning.html"
+                        >Move in & out Cleaning</a
+                      >
+                    </li>
+                    <li>
+                      <a href="../pest_control.html">Pest Control Service</a>
+                    </li>
+                    <li>
+                      <a href="../packers_movers_singapore.html"
+                        >Moving & packing Service</a
+                      >
+                    </li>
+                  </div>
+                  <div class="pe-3">
+                    <li><a href="../task_assistant.html">Task Assistant</a></li>
+                    <li><a href="../plumber.html">Plumber</a></li>
+                    <li><a href="../electrician.html">Electrician</a></li>
+                    <li><a href="../carpenter.html">Carpenter</a></li>
+                    <li><a href="../sofa_cleaning.html">Sofa Cleaning</a></li>
+                  </div>
+                  <div class="">
+                    <li>
+                      <a href="../mattress_cleaning.html">Mattress Cleaning</a>
+                    </li>
+                    <li>
+                      <a href="../bathroom_cleaning.html">Bathroom Cleaning</a>
+                    </li>
+                  </div>
+                </ul>
+              </li>
+              <li class="nav-item pe-3">
+                <a class="nav-link active" href="../helperlah_partner.html"
+                  >Join as partner</a
+                >
+              </li>
+              <li class="nav-item pe-3">
+                <a class="nav-link active" href="../contact_us.html"
+                  >Contact Us</a
+                >
+              </li>
+              <li class="nav-item pe-3">
+                <a class="nav-link active" href="#">Login/Register</a>
+              </li>
+              <li class="nav-item pe-3">
+                <a class="nav-link active" href="#">
+                  <i class="fas fa-bell"></i>
+                </a>
+              </li>
+            </ul>
+            <div class="num text-center py-3">
+              <a href="tel:+6588941306" class="text-decoration-none">
+                <button
+                  class="btn register_button mx-3 mx-md-0 mx-lg-3 text-light"
+                  type="button"
+                >
+                  <i class="fas fa-phone me-1"></i> +65 88941306
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <section class="container mt-5 pt-2 pt-md-5">
+      <div class="row m-0">
+        <form class="form-wizard px-md-0 px-0 px-lg-3">
+          <div class="progress-container">
+            <div class="progress" style="transform: scaleX(0.5)"></div>
+
+            <ol class="ps-0">
+              <li class="done">Tell us how and when</li>
+              <li class="current">Confirm your booking</li>
+              <li>Contact Information</li>
+              <!-- <li>About</li> -->
+            </ol>
+          </div>
+          <div class="steps-container mt-md-5">
+            <!--  ===== STEP 2 =====  -->
+            <div class="step">
+              <div class="row mt-5 m-0">
+                <p class="primary-color fs-4 fw-500">Bonus Offer</p>
+
+                <div class="my-md-3 py-1 col-8 col-md-3">
+                  <label class="radio-card w-100">
+                    <input
+                      type="checkbox"
+                      name="Bonus Offer"
+                      value="laundry"
+                      class="d-none"
+                    />
+                    <div class="card rounded-3 bonus-check text-center py-4">
+                      Laundry & Ironing
+                    </div>
+                  </label>
+                </div>
+                <p class="mt-md-3 mb-md-5 mb-4 pe-0 fs-bouns">
+                  Claim laundry and ironing services at discounted rates
+                </p>
+              </div>
+              <div class="row m-0">
+                <div class="col-md-6 col-12">
+                  <p class="primary-color my-1 my-md-3 fs-5 fw-500">
+                    Do you have pets at home ?
+                  </p>
+                  <p class="my-md-4 my-2 fs-7">
+                    It is important that you share this information because some
+                    helpers are allergic to certain pets
+                  </p>
+                </div>
+                <div class="col-md-6 col-12"></div>
+                <div class="col-md-6 col-12 ps-md-0 d-flex flex-column">
+                  <div class="d-flex justify-content-between md-5 mt-3 w-70">
+                    <label class="radio-card pets-card">
+                      <input
+                        type="radio"
+                        name="pets"
+                        value="yes"
+                        class="d-none"
+                      />
+                      <div
+                        class="card w-100 h-100 rounded-4 d-flex property-type justify-content-center align-items-center px-2 px-md-0 text-center"
+                      >
+                        Yes, We have Pets
+                      </div>
+                    </label>
+                    <label class="radio-card pets-card">
+                      <input
+                        type="radio"
+                        name="pets"
+                        value="no"
+                        class="d-none"
+                      />
+                      <div
+                        class="card w-100 h-100 rounded-4 d-flex property-type justify-content-center align-items-center"
+                      >
+                        No Pets
+                      </div>
+                    </label>
+                  </div>
+                  <div class="mt-5">
+                    <p class="primary-color my-md-4 fs-5 fw-500">
+                      Additional Information :
+                    </p>
+                    <p class="fs-7">
+                      Like language preference, dress code or other details
+                    </p>
+                    <div class="row">
+                      <div class="col-12 mb-5">
+                        <textarea
+                          class="form-control custom-input w-80"
+                          rows="5"
+                          placeholder="Optional"
+                        ></textarea>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mt-md-auto mb-5 w-80">
+                    <p class="primary-color my-md-4 fs-5 fw-500">
+                      Your Weekly Cleaning Schedule
+                    </p>
+                    <p class="fs-7">Auto renews after 4 sessions</p>
+                    <p class="font-fs">
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry.
+                    </p>
+                    <p class="font-fs">
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry.
+                    </p>
+                    <p class="font-fs">
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry.
+                    </p>
+                    <p class="font-fs">
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6 col-12 glance-card">
+                  <div class="card w-80">
+                    <p class="text-center my-5 fs-5">Details in a glance</p>
+                    <div class="row m-0 mb-md-4 mb-3 ps-3 ps-md-4 ps-lg-5">
+                      <div class="col-6 d-flex justify-content-between">
+                        <p>Your Plan</p>
+                      </div>
+                      <div class="col-6 d-flex justify-content-between">
+                        <p class="">:</p>
+                      </div>
+                    </div>
+                    <div class="row m-0 mb-md-4 mb-3 ps-3 ps-md-4 ps-lg-5">
+                      <div class="col-6 d-flex justify-content-between">
+                        <p>How Often</p>
+                      </div>
+                      <div class="col-6 d-flex justify-content-between">
+                        <p class="">:</p>
+                      </div>
+                    </div>
+                    <div class="row m-0 mb-md-4 mb-3 ps-3 ps-md-4 ps-lg-5">
+                      <div class="col-6 d-flex justify-content-between">
+                        <p>Starts On</p>
+                      </div>
+                      <div class="col-6 d-flex justify-content-between">
+                        <p class="">:</p>
+                      </div>
+                    </div>
+                    <div class="row m-0 mb-md-4 mb-3 ps-3 ps-md-4 ps-lg-5">
+                      <div class="col-6 d-flex justify-content-between">
+                        <p>Property Type</p>
+                      </div>
+                      <div class="col-6">
+                        <p class="">:</p>
+                      </div>
+                    </div>
+                    <div class="row m-0 mb-md-4 mb-3 ps-3 ps-md-4 ps-lg-5">
+                      <div class="col-6 d-flex justify-content-between">
+                        <p>Hours per Session</p>
+                      </div>
+                      <div class="col-6">
+                        <p class="">:</p>
+                      </div>
+                    </div>
+                    <div class="row m-0 mb-md-4 mb-3 ps-3 ps-md-4 ps-lg-5">
+                      <div class="col-6 d-flex justify-content-between">
+                        <p>No. of Sessions</p>
+                      </div>
+                      <div class="col-6">
+                        <p class="">:</p>
+                      </div>
+                    </div>
+                    <div class="row m-0 mb-md-4 mb-3 ps-3 ps-md-4 ps-lg-5">
+                      <div class="col-6 d-flex justify-content-between">
+                        <p>Price per Session</p>
+                      </div>
+                      <div class="col-6">
+                        <p class="">:</p>
+                      </div>
+                    </div>
+                    <div class="row m-0 ps-lg-4 ps-3 pe-0 mt-5">
+                      <div class="col-6 d-flex justify-content-between">
+                        <p class="fs-6 fw-semibold">Total Cost</p>
+                      </div>
+                      <div class="col-6 d-flex justify-content-between">
+                        <p class="">:</p>
+                        <p class="fs-4 fw-semibold text-success pe-md-2 pe-1">
+                          &nbsp; $100.00
+                        </p>
+                      </div>
+                    </div>
+                    <div class="px-4">
+                      <input
+                        type="text"
+                        class="form-control input py-3"
+                        placeholder="Discount Coupon"
+                      />
+                      <div class="d-flex justify-content-end my-5">
+                        <button
+                          class="btn btn-outline-success py-2 px-3"
+                          type="button"
+                        >
+                          Apply Discount
+                        </button>
+                      </div>
+                    </div>
+                    <div class="row m-0 ps-lg-4 ps-3 pe-0 mb-5 mt-4">
+                      <div class="col-6 d-flex justify-content-between">
+                        <p class="fs-6 fw-semibold">Cost after Discount</p>
+                      </div>
+                      <div class="col-6 d-flex justify-content-between">
+                        <p class="">:</p>
+                        <p class="fs-4 fw-semibold text-success pe-md-2 pe-1">
+                          &nbsp; $80.00
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-center my-5">
+                    <a
+                      href="./home_cleaning_3.html"
+                      class="text-decoration-none"
+                    >
+                      <button
+                        class="book-now-btn btn next-btn fw-semibold"
+                        type="button"
+                      >
+                        Confirm Order
+                      </button></a
+                    >
+                  </div>
+                  <p
+                    class="d-flex justify-content-end primary-color fw-500 cursor-pointer"
+                  >
+                    Learn about cancellation & charges
+                  </p>
+                </div>
+              </div>
+              <div class="row m-md-0">
+                <div class="mt-2">
+                  <p class="fw-500 fs-5 text-success">Please note :</p>
+                  <p class="text-success fs-14">
+                    To ensure high levels of hygiene we rely on customer
+                    provided cleaning supplies. Helper partners will be
+                    expecting cleaning supplies at the premises
+                  </p>
+                </div>
+                <div
+                  class="d-flex justify-content-start gap-2 gap-md-5 ps-md-0 w-80 my-5"
+                >
+                  <div class="card py-3 text-center px-md-5 px-2">
+                    What’s Included ?
+                  </div>
+                  <div class="card py-3 text-center px-md-5 px-2">
+                    How it works ?
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- ==== back btn ===== -->
+    <div class="back-btn-div">
+      <button class="back-btn" onclick="navigateBack()">
+        <div class="back-btn-box">
+          <span class="back-btn-elem">
+            <svg viewBox="0 0 46 40" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M46 20.038c0-.7-.3-1.5-.8-2.1l-16-17c-1.1-1-3.2-1.4-4.4-.3-1.2 1.1-1.2 3.3 0 4.4l11.3 11.9H3c-1.7 0-3 1.3-3 3s1.3 3 3 3h33.1l-11.3 11.9c-1 1-1.2 3.3 0 4.4 1.2 1.1 3.3.8 4.4-.3l16-17c.5-.5.8-1.1.8-1.9z"
+              ></path>
+            </svg>
+          </span>
+          <span class="back-btn-elem">
+            <svg viewBox="0 0 46 40">
+              <path
+                d="M46 20.038c0-.7-.3-1.5-.8-2.1l-16-17c-1.1-1-3.2-1.4-4.4-.3-1.2 1.1-1.2 3.3 0 4.4l11.3 11.9H3c-1.7 0-3 1.3-3 3s1.3 3 3 3h33.1l-11.3 11.9c-1 1-1.2 3.3 0 4.4 1.2 1.1 3.3.8 4.4-.3l16-17c.5-.5.8-1.1.8-1.9z"
+              ></path>
+            </svg>
+          </span>
+        </div>
+      </button>
+    </div>
+    <!--==== Footer Section ====-->
+    <section class="container-fluid footer">
+      <div class="container">
+        <div class="row m-0 m-0">
+          <div class="col-lg-3 col-md-5 col-12 text-md-start text-center mt-4">
+            <div class="ps-2">
+              <p class="footer-title">Contact</p>
+              <!-- <img
+                        src="./assets/images/underline_footer_title.webp"
+                        alt="underline_footer_title"
+                        class="underline_img img-fluid lazyload"
+                        
+                      /> -->
+            </div>
+            <div class="footer-links">
+              <div class="links">
+                <a
+                  href="https://www.google.com/maps/place/The+Alexcier/@1.2916847,103.8111868,17z/data=!3m2!4b1!5s0x31da1a2cf1b2be13:0x7b0f9d88a36fdfbb!4m6!3m5!1s0x31da1bb95520771b:0xf2b9dfa378aa9a6e!8m2!3d1.2916793!4d103.8137617!16s%2Fg%2F11gyxjfkjk?entry=ttu&g_ep=EgoyMDI0MDkxOC4xIKXMDSoASAFQAw%3D%3D"
+                  class="text-decoration-none d-flex justify-content-md-start justify-content-center align-items-center"
+                  style="font-size: 16px; color: #ffffff"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div>
+                    <img
+                      src="../assets/images/location_brand.webp"
+                      alt="location_brand"
+                      class="img-fluid p-2"
+                      style="font-size: 24px; height: 30px"
+                    />
+                    <span
+                      >The Alexcier, <br />
+                      237 Alexandra Road, #04-10,<br />
+                      Singapore-159929.</span
+                    >
+                  </div>
+                </a>
+              </div>
+              <div class="links">
+                <a
+                  href="mailto:info@trucklah.com"
+                  class="text-decoration-none"
+                  style="font-size: 16px; color: #ffffff"
+                >
+                  <img
+                    src="../assets/images/envelope_brand.webp"
+                    alt="envelope_brand"
+                    class="img-fluid p-2"
+                    style="font-size: 24px; height: 30px"
+                  />
+                  info@helperlah.com</a
+                >
+              </div>
+              <div class="links">
+                <a
+                  href="tel:+6588941306"
+                  class="text-decoration-none"
+                  style="font-size: 16px; color: #ffffff"
+                >
+                  <img
+                    src="../assets/images/phone_brand.webp"
+                    alt="phone_brand"
+                    class="img-fluid p-2"
+                    style="font-size: 24px; height: 30px"
+                  />
+                  +65 8894 1306</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-7 col-12 text-md-start text-center mt-4">
+            <div class="row">
+              <p class="footer-title">Services</p>
+              <!-- <img
+                          src="../assets/images/footer/underline_footer_title.webp"
+                          alt="underline_footer_title"
+                          class="underline_img img-fluid lazyload"
+                          
+                        /> -->
+              <div class="col-md-6 col-12">
+                <div class="footer-links">
+                  <div class="links2">
+                    <a
+                      href="../home_cleaning.html"
+                      rel="noopener noreferrer"
+                      class="text-decoration-none"
+                      style="font-size: 16px; color: #ffffff"
+                      >Home Cleaning</a
+                    >
+                  </div>
+                  <div class="links2">
+                    <a
+                      href="../office_cleaning.html"
+                      rel="noopener noreferrer"
+                      class="text-decoration-none"
+                      style="font-size: 16px; color: #ffffff"
+                      >Office Cleaning</a
+                    >
+                  </div>
+                  <div class="links2">
+                    <a
+                      href="../deep_cleaning.html"
+                      rel="noopener noreferrer"
+                      class="text-decoration-none"
+                      style="font-size: 16px; color: #ffffff"
+                      >Deep Cleaning</a
+                    >
+                  </div>
+                  <div class="links2">
+                    <a
+                      href="../aircon_service_repair.html"
+                      rel="noopener noreferrer"
+                      class="text-decoration-none"
+                      style="font-size: 16px; color: #ffffff"
+                      >Aircon Service</a
+                    >
+                  </div>
+                  <div class="links2">
+                    <a
+                      href="../handyman.html"
+                      rel="noopener noreferrer"
+                      class="text-decoration-none"
+                      style="font-size: 16px; color: #ffffff"
+                      >Handyman</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-12">
+                <div class="footer-links">
+                  <div class="links2">
+                    <a
+                      href="../move_in_out_cleaning.html"
+                      rel="noopener noreferrer"
+                      class="text-decoration-none"
+                      style="font-size: 16px; color: #ffffff"
+                      >Move In/Out Services</a
+                    >
+                  </div>
+                  <div class="links2">
+                    <a
+                      href="../packers_movers_singapore.html"
+                      rel="noopener noreferrer"
+                      class="text-decoration-none"
+                      style="font-size: 16px; color: #ffffff"
+                      >Moving & Packing Services</a
+                    >
+                  </div>
+                  <div class="links2">
+                    <a
+                      href="../laundry.html"
+                      rel="noopener noreferrer"
+                      class="text-decoration-none"
+                      style="font-size: 16px; color: #ffffff"
+                      >Laundry & Ironing Services</a
+                    >
+                  </div>
+                  <div class="links2">
+                    <a
+                      href="../cooking_services.html"
+                      rel="noopener noreferrer"
+                      class="text-decoration-none"
+                      style="font-size: 16px; color: #ffffff"
+                      >Cooking Services</a
+                    >
+                  </div>
+                  <div class="links2">
+                    <a
+                      href="../plumber.html"
+                      rel="noopener noreferrer"
+                      class="text-decoration-none"
+                      style="font-size: 16px; color: #ffffff"
+                      >Plumber</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-12 text-start mt-4 px-0 px-md-2 d-flex justify-content-center flex-column"
+          >
+            <div
+              class="list-unstyled d-flex flex-wrap gap-lg-1 gap-md-0 gap-0 justify-content-center align-items-center"
+            >
+              <span>
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-decoration-none line-divider"
+                  aria-label="Visit our facebook page"
+                >
+                  <img
+                    src="../assets/images/fb_brand.webp"
+                    alt="fb_brand"
+                    class="img-fluid p-2"
+                    style="font-size: 24px; height: 50px"
+                  />
+                </a>
+              </span>
+              <span>
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-decoration-none line-divider"
+                  aria-label="Visit our twitter page"
+                >
+                  <img
+                    src="../assets/images/twitter_brand.webp"
+                    alt="twitter_brand"
+                    class="img-fluid p-2"
+                    style="font-size: 24px; height: 50px"
+                  />
+                </a>
+              </span>
+              <span>
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-decoration-none line-divider"
+                  aria-label="Visit our instagram page"
+                >
+                  <img
+                    src="../assets/images/instagram_brand.webp"
+                    alt="instagram_brand"
+                    class="img-fluid p-2"
+                    style="font-size: 24px; height: 50px"
+                  />
+                </a>
+              </span>
+              <span>
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-decoration-none line-divider"
+                  aria-label="Visit our linkedin page"
+                >
+                  <img
+                    src="../assets/images/linkedin_brand.webp"
+                    alt="linkedin_brand"
+                    class="img-fluid p-2"
+                    style="font-size: 24px; height: 50px"
+                  />
+                </a>
+              </span>
+              <span>
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-decoration-none line-divider"
+                  aria-label="Visit our youtube page"
+                >
+                  <img
+                    src="../assets/images/youtube_brand.webp"
+                    alt="youtube_brand"
+                    class="img-fluid p-2"
+                    style="font-size: 24px; height: 50px"
+                  />
+                </a>
+              </span>
+              <span>
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-decoration-none line-divider"
+                  aria-label="Visit our tiktok page"
+                >
+                  <img
+                    src="../assets/images/tiktok_brand.webp"
+                    alt="tiktok_brand"
+                    class="img-fluid p-2"
+                    style="font-size: 24px; height: 50px"
+                  />
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="text-light" />
+      <div class="copyrights">
+        <p class="text-center text-light m-0 pb-3">
+          2024 © Copyright Dealslah Pte Ltd. All Rights Reserved.
+        </p>
+      </div>
+    </section>
+    <!--==== Footer End ====-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/custom.js"></script>
+  </body>
+</html>
